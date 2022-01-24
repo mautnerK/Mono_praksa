@@ -33,7 +33,6 @@ for (int index = 0; index < dogDictionary.Count; index++)
     var itemValue = item.Value;
     System.Console.WriteLine(itemKey);
     itemValue.GetWeight();
- 
 }
 
 
