@@ -10,6 +10,5 @@ namespace Prvi_dan_mono
     {
         void Sound();
         void Eat(int amount);
-
     }
 }
