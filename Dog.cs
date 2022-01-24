@@ -23,6 +23,7 @@ namespace Prvi_dan_mono
                 weight += amount / 6;
             }
         }
+        
         private void play()
         {
             weight--;
