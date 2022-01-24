@@ -14,7 +14,6 @@ namespace Prvi_dan_mono
 
         protected double height;
 
-
         protected char sex;
 
         public void GetHeight()
@@ -24,8 +23,7 @@ namespace Prvi_dan_mono
         public void GetWeight()
         {
             System.Console.WriteLine(weight);
-        }
-      
+        } 
     }
 }
 
