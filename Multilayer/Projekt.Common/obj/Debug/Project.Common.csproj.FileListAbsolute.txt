@@ -1,0 +1,6 @@
+C:\Users\mautn\source\repos\web_api_projekt\Projekt.Common\bin\Debug\Projekt.Common.dll
+C:\Users\mautn\source\repos\web_api_projekt\Projekt.Common\bin\Debug\Projekt.Common.pdb
+C:\Users\mautn\source\repos\web_api_projekt\Projekt.Common\obj\Debug\Project.Common.csproj.AssemblyReference.cache
+C:\Users\mautn\source\repos\web_api_projekt\Projekt.Common\obj\Debug\Project.Common.csproj.CoreCompileInputs.cache
+C:\Users\mautn\source\repos\web_api_projekt\Projekt.Common\obj\Debug\Projekt.Common.dll
+C:\Users\mautn\source\repos\web_api_projekt\Projekt.Common\obj\Debug\Projekt.Common.pdb
