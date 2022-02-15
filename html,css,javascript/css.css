@@ -1,0 +1,39 @@
+h2{
+    color:black;
+}
+
+
+
+.Student { grid-area: Student; }
+.College { grid-area: College; }
+.Name { grid-area: Name; }
+
+.ECTS { grid-area: ECTS; }
+
+.grid{
+    display: grid;
+    grid-template-areas:
+    'Student Student Student Student Student Student'
+    'College Name Name Name Name Name'
+    'College ECTS ECTS ECTS ECTS ECTS';
+    grid-gap: 5px;
+    background-color:wheat;
+    padding: 7px;
+    margin-top: 100px;
+}
+
+.grid > div {
+    background-color:aliceblue;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+a{
+    text-align:end;
+    color:dimgray;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    margin-left: 900px;
+}

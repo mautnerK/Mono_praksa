@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>webpage</title>
+        <link rel="stylesheet" href="css.css">
+        
+    </head>
+    <body>
+        
+        <h2>Student</h2>
+
+        <label for="Students">Choose a student:</label>
+        <select name="Students" id="Students" >
+            <option value="karlo " name = "option1" id="option1"></option>
+            <option name = "option2" id="option2"></option>
+            <option name = "option3" id="option3"></option>
+            <option name = "option4" id="option4"></option>
+          </select>
+          <button onclick="getStudent()"> Get student data </button>
+
+
+        <div class="grid">
+            <div id = "Student" class="Student">Student</div>
+            <div id = "College" class="College">College</div>
+            <div id = "Name" class="Name">Name</div>  
+            <div id = "ECTS" class="ECTS">ECTS</div>
+          </div>
+
+        <br>
+
+        <input type="radio" id="redovno" name="studiranje" value="redovno">
+        <label for="redovno">Redonvo</label><br>
+        <input type="radio" id="izvanredno" name="studiranje" value="izvanredno">
+        <label for="izvanredno">Izvanredno</label>
+        
+          <button onclick="calculateScholarship()"> Calculate scholarship </button>
+          <p id="price"></p>
+
+
+
+          <a href="newStudent.html">Add new student</a>
+          
+
+    </body>
+    <script src="javascript.js"></script>
+    <script src="newstudent.js"></script>
+</html>
